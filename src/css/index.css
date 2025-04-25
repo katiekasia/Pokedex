@@ -1,0 +1,16 @@
+.app-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .page-content {
+    flex: 1;
+    padding-top: 80px; /* adjust to your navbar height */
+  }
+  
+  .page {
+    padding-top: 0px; /* or whatever matches your navbar height */
+    background: url("https://wallpapercave.com/wp/wp8797805.jpg");
+    background-size: cover;
+}

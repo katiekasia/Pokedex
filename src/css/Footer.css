@@ -1,0 +1,11 @@
+
+  .page-footer {
+    background-color: #147428;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.7rem;
+    font-family: 'Press Start 2P', cursive;
+    margin-top: auto; /* pushes it to bottom when using flex */
+  }
+  

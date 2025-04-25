@@ -1,0 +1,84 @@
+
+.page{
+    padding-top: 150px;
+    font-family: 'Press Start 2P', cursive; /* pixel font */
+   
+}
+
+.pokedex {
+    text-align: center;
+    justify-items: center;
+    padding: 2rem;
+    color: white;
+
+    background: url("https://wallpapercave.com/wp/wp8797805.jpg");
+    background-size: cover;
+   
+    
+  }
+  #name{
+    font-family: 'Press Start 2P', cursive; 
+    color: rgb(0, 0, 0);
+    font-size: small;
+  }
+  
+  .pokemon-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 0.2fr);
+    justify-items: center;
+    gap:calc(100px / 3);
+    margin: 2rem 0;
+  }
+  
+  .card {
+    width: 200px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 1rem;
+    border-radius: 8px;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+
+  .card.normal { background-color: #A8A77A; }
+  .card.fire { background-color: #EE8130; }
+  .card.water { background-color: #6390F0; }
+  .card.electric { background-color: #F7D02C; }
+  .card.grass { background-color: #7AC74C; }
+  .card.ice { background-color: #96D9D6; }
+  .card.fighting { background-color: #C22E28; }
+  .card.poison { background-color: #A33EA1; }
+  .card.ground { background-color: #E2BF65; }
+  .card.flying { background-color: #A98FF3; }
+  .card.psychic { background-color: #F95587; }
+  .card.bug { background-color: #A6B91A; }
+  .card.rock { background-color: #B6A136; }
+  .card.ghost { background-color: #735797; }
+  .card.dragon { background-color: #6F35FC; }
+  .card.dark { background-color: #705746; }
+  .card.steel { background-color: #B7B7CE; }
+  .card.fairy { background-color: #D685AD; }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    
+  }
+  
+  button {
+    background-color: #0ddc18;
+    color: #20232a;
+    border: none;
+    height: 50px;
+    width: 150px;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Press Start 2P', cursive; /* pixel font */
+  }
+  
+  button:disabled {
+    background-color: #a867e1;
+    cursor: not-allowed;
+  }
+  
