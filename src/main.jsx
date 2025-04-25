@@ -17,6 +17,7 @@ createRoot(document.getElementById('root')).render(
     <Navbar />
     <main className="page-content">
       <Routes>
+        <Route path="/" element={<Pokedex />} />
         <Route path="/about" element={<About />} />        
         <Route path='/pokedex' element={<Pokedex />} />
         <Route path='/pokemon/:id' element={<Pokemon />} />
